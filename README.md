@@ -26,7 +26,7 @@ addi $S1, $0, -37
 
 add $S2, $S0, $S1
 
- SW $S2 ,x54
+ SW $S2 ,x54($S0)    54 is the imm and rt is the s2 and 
 
 Machine Code (Binary)  
 
@@ -46,4 +46,4 @@ Machine Code (Hexadecimal)
 
 0x 0211 9020
 
-0x 57254 0000
+
