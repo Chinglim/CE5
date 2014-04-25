@@ -14,7 +14,7 @@ addi $S1, $0, -37     (To initialize the register $S1 with the value -37)
 
 add $S2, $S1, $S0     (To add the values within register $S1 and $S0 and then storing it into register $S2)
 
- SW x54, $S2          (To store the value within register $S2 now into memory address x54.
+ SW $S2, x54($0)       (To store the value within register $S2 now into memory address x54.
  
 ##Task 2: Machine Code
  
@@ -26,7 +26,7 @@ addi $S1, $0, -37
 
 add $S2, $S0, $S1
 
- SW $S2 ,x54($S0)    54 is the imm and rt is the s2 and 
+ SW $S2 ,x54($0)    
 
 Machine Code (Binary)  
 
@@ -36,7 +36,7 @@ Machine Code (Binary)
 
 000000 10000 10001 10010 00000 100000
 
-101011 10010 54    0000 0000 0000 0000
+101011 00000 10010 0000 0000 0011 0110
  
 Machine Code (Hexadecimal)
 
@@ -46,4 +46,4 @@ Machine Code (Hexadecimal)
 
 0x 0211 9020
 
-
+0x AC12 0036
