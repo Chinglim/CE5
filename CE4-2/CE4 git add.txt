@@ -1,2 +1,0 @@
-git@github.com:Chinglim/CE4-.git
-https://github.com/Chinglim/CE4-.git
