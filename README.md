@@ -47,3 +47,16 @@ Machine Code (Hexadecimal)
 0x 0211 9020
 
 0x AC12 0036
+
+Explanation of screenshot waveform
+
+As based on the textbook pg 300 Table 6.1-MIPS register set and the task2 waveform diagram posted, 
+
+The number for registers $S0=16 , $S1=17 and $S2=18 respectively. 
+
+Based on the instruction on the lab sheet, one is supposed to place the decimal value 44 into $S0 and decimal value -37 into $S1 and then sum these 2 values up and place their result into register $S2.
+
+This is correctly verified by the posted task2 image waveform which show the decimal value 44 in register 16, decimal value -37 in register 17 and decimal value 7, which is the result of 44-37, in register 18.
+
+
+
