@@ -58,5 +58,7 @@ Based on the instruction on the lab sheet, one is supposed to place the decimal 
 
 This is correctly verified by the posted task2 image waveform which show the decimal value 44 in register 16, decimal value -37 in register 17 and decimal value 7, which is the result of 44-37, in register 18.
 
+Therefore, i will conclude that the program is working.
+
 
 
