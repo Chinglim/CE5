@@ -26,7 +26,7 @@ addi $S1, $0, -37
 
 add $S2, $S0, $S1
 
- SW $S2 ,x54($0)    
+ SW $S2 ,0x54($0)    
 
 Machine Code (Binary)  
 
