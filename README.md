@@ -60,5 +60,6 @@ This is correctly verified by the posted task2 image waveform which show the dec
 
 Therefore, i will conclude that the program is working.
 
+## Task 3: Adding ori instruction
 
 
