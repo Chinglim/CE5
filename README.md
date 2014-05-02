@@ -60,5 +60,18 @@ This is correctly verified by the posted task2 image waveform which show the dec
 
 Therefore, i will conclude that the program is working.
 
+## Task 3: Adding ori instruction
 
+The necessary changes are as depicted in the diagrams attached in this repo. They are the MIPS processor schematic, the main decoder table and ALU decoder table. 
 
+Minor changes has to be done to the codes in order to allow for the ori instruction to be implemented.
+
+Firstly, the instruction : instr <= x"36538000";
+                  wait for clk_period;   
+has to be placed on the testbench.vhd for the ori insrtuction to be carried out. 
+
+Second,  an additional instruction: when "001101" => controls <= "1010000011"; -- ori has to be added to the architecture code of the main decoder so that the new operation can be carried out and the respective individual signals to the respective components can be successful. Analysis of the code was thru analysis of using the textbook and also with the consultation of Cpt Sliva.
+                  
+As based on the amendment made to my schematic diagram, I have to declare and initialize and list out the necessary operation of the additional units required within the mips.vhd file. As for the secondary part, as to linking these components, initially i was able to do it for my mux4, however, i was not successful for my zeroextend instead. This was verified on Wed, 30 April by Cpt Silva. After troubleshooting for a day and a half, I consulted Dr Nibble on the may 1, and with his gudiance and assistance i was able to carry out the prpoer zeroextend successfully. 
+
+The finally answer in register location 19 is 00008007.
