@@ -72,4 +72,6 @@ has to be placed on the testbench.vhd for the ori insrtuction to be carried out.
 
 Second,  an additional instruction: when "001101" => controls <= "1010000011"; -- ori has to be added to the architecture code of the main decoder so that the new operation can be carried out and the respective individual signals to the respective components can be successful. Analysis of the code was thru analysis of using the textbook and also with the consultation of Cpt Sliva.
                   
-                  
+As based on the amendment made to my schematic diagram, I have to declare and initialize and list out the necessary operation of the additional units required within the mips.vhd file. As for the secondary part, as to linking these components, initially i was able to do it for my mux4, however, i was not successful for my zeroextend instead. This was verified on Wed, 30 April by Cpt Silva. After troubleshooting for a day and a half, I consulted Dr Nibble on the may 1, and with his gudiance and assistance i was able to carry out the prpoer zeroextend successfully. 
+
+The finally answer in register location 19 is 00008007.
